@@ -1,0 +1,293 @@
+.header{
+	position: fixed;
+	display: flex;
+	height: 1rem;
+    padding: 1rem 7%;
+	background: lightblue;
+	box-shadow: red;
+}
+.logo{
+	font-size: 6rem;
+	font-weight: 700;
+}
+.navbar{
+	display: flex;
+	flex-direction: column;
+	font-size: 3rem;
+	margin-left: 5rem;
+	/*align-items: center;
+	justify-content: space-between;
+	font-weight: 600;
+	font-size: 3rem;
+	display: block;
+	transition: 2s;
+	padding: 1rem;
+	border-bottom: 2px solid transparent; 
+}*/
+
+.navbar a.not(last-child){
+	margin-right: 1.5rem;
+}
+.navbar{
+	display: none;
+}
+
+.navbar a.hover{
+	color: green;
+	border-color:yellow;
+}
+.btn{
+	color: green;
+	background-color: yellow;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	transition-duration: 2s;
+}
+
+.btn.hover{
+	color: green;
+	border-color: yellow;
+	}
+
+.btn.hover{
+box-shadow: var(--box-shadow)
+}
+.header.hamburger img{
+	width: 2rem;
+}
+.header.hamburger{
+	display: none;
+		}
+		   }
+
+.home{
+	width: 90%;
+	display: block;
+    padding-top: 3rem;
+    margin:1rem 2rem;
+	/*display: grid;*/
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	grid-gap: 2rem;
+}
+.h1 {
+	font-size: 6rem;
+	font-weight: 700;
+	margin-bottom: 2rem;
+
+}
+.p{
+	font-size: 3rem;
+	margin-bottom: 3rem;
+}	
+.home-btn {
+	height: 6rem;
+	width: 40%;
+	
+	padding: 2rem;
+	display: inline-block;
+	color: green;
+	background-color: yellow
+	font-weight: 400;
+	font-size: 4rem;
+	border-radius: 2rem;
+	background-color: yellow;
+	/*padding: 0.5rem 4rem;*/
+	margin-top: 1rem;
+	transition: 2s;
+}
+.home.content.home-btn:hover{
+	transition: translate(-3px);
+	box-shadow: 
+   } 
+.img{
+	width: 90%;
+	margin: 1rem 2rem;
+}
+.services{
+	width: 90%;
+	margin: 1rem 2rem;
+}
+.Sh2{
+	font-size: 3rem;
+}
+@media only screen and ( min-width: 768px){
+	.header{
+    height: 10rem;
+	padding: 0.5rem 7%;
+	background: lightblue;
+}
+.logo{
+	font-size: 8rem;
+	font-weight: 700;
+}
+.navbar{
+	display: none;
+	}
+.btn{
+	border-radius: 1rem;
+	transition-duration: 2s;
+}
+
+
+.home{
+	width: 90%;
+	}
+.h1 {
+	font-size: 5rem;
+	font-weight: 400;
+	margin-bottom: 1rem;
+}
+.p{
+	
+	font-size: 3rem;
+	
+}	
+.home-btn {
+	height: 6rem;
+	width: 40%;
+	
+	padding: 2rem;
+	display: inline-block;
+	color: green;
+	background-color: yellow
+	font-weight: 400;
+	font-size: 4rem;
+	border-radius: 2rem;
+	background-color: yellow;
+	/*padding: 0.5rem 4rem;*/
+	margin-top: 1rem;
+	transition: 2s;
+}*/
+.home.content.home-btn:hover{
+	transition: translate(-3px);
+	box-shadow: 
+   } 
+.img{
+	width: 90%;
+	margin: 1rem 2rem;
+
+}
+@media only screen and ( min-width: 1000px){
+
+.header{
+	height: 3rem;
+	margin-bottom: 5rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 1rem 7%;
+	background: lightblue;
+}
+.logo{
+	font-size: 4rem;
+	font-weight: 500;
+}
+.navbar{
+	
+	display: inline-block;
+	font-size: 1.5rem;
+	
+	}
+
+.navbar.a{
+
+}
+
+.navbar a.hover{
+	color: green;
+	border-color:yellow;
+}
+.a{
+	margin-right: 2rem;
+}
+
+.btn{
+	height: 2rem;
+	width: 40%;
+	color: green;
+	background-color: yellow;
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	transition-duration: 2s;
+}
+
+.btn.hover{
+	color: green;
+	border-color: yellow;
+	}
+
+.btn.hover{
+box-shadow: var(--box-shadow)
+}
+.header.hamburger img{
+	width: 2rem;
+}
+.header.hamburger{
+	display: none;
+		}
+		   }
+
+.home{
+
+	width: 90%;
+
+	/*float: left;*/
+	display: flex;
+    padding-top: 3rem;
+    margin:1rem 2rem;
+	/*display: grid;*/
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	grid-gap: 2rem;
+}
+.content{
+	float: right;
+	margin-top: 5rem;
+	width: 40%
+}
+.h1 {
+	font-size: 2rem;
+	font-weight: 400;
+	margin-bottom: 2rem;
+
+}
+.p{
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}	
+.home-btn {
+	height: 2rem;
+	width: 25%;
+	padding: 1rem;
+	display: inline-block;
+	color: green;
+	background-color: yellow
+	font-weight: 400;
+	font-size: 1.5rem;
+	border-radius: 0.5rem;
+	background-color: yellow;
+	/*padding: 0.5rem 4rem;*/
+	margin-top: 1rem;
+	transition: 2s;
+}
+.home.content.home-btn:hover{
+	transition: translate(-3px);
+	box-shadow: 
+   } 
+.img{
+	float: left;
+	margin-top: 10rem;
+	width: 50%;
+	/*float: right;*/
+	margin: 1rem 2rem;
+}
+.services{
+	align-items: center;
+	width: 90%;
+	margin: 1rem 2rem;
+}
+.Sh2{
+	font-size: 2rem;
+}	
+}
